@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scores Game </title>
+    </head>
+    <body>
+        {% if score !="":%}
+        <h1>The score is:</h1>
+        <div id = "score">{{score}}</div>
+        {% else %}
+        <h1>ERROR:</h1>
+        <div id="score" style="color:red">{{ERROR}}</div>
+        {% endif %}
+    </body>
+</html>
